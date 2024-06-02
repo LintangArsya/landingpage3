@@ -1,0 +1,313 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    display: block;
+    height: 30px;
+}
+header{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 90px;
+    padding-top: 2px;
+    display: block;
+    list-style: none;
+    margin-left: 0px;
+    position: fixed;
+}
+nav ul{
+    margin-right: 0;
+    font-size: 15px;
+    display: flex;
+    margin-top: 13px;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+.satu{
+    margin-right: 480px;
+}
+#a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-left: 10px;
+}
+nav ul a:hover{
+    border-bottom: 2px solid black;
+}
+main{
+    display: block;
+    /* background-color: aqua; */
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+
+}
+.atas{
+    /* background-color: rgb(255, 0, 0); */
+    width: 100%;
+    height: 500px;
+    /* padding-top: 2px; */
+    display: block;
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.atas ul{
+    margin-right: 0;
+    font-size: 15px;
+    display: flex;
+    margin-top: 13px;
+    justify-content: center;
+    /* gap: 10px; */
+    text-decoration: none;
+    /* flex-wrap: wrap-reverse; */
+    /* background-color: rgb(77, 255, 0); */
+    height: 600px;
+}
+.boxtengah{
+    /* background-color: aqua; */
+    height: 300px;
+    margin-top: 140px;
+    width: 1200px;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    border-radius: 1px;
+    margin-left: 330px;
+    margin-top: 80px;
+}
+.bawah{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin-top: 25px;
+    width: 1300px;
+    margin-left: 130px;
+}
+.kotak{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+}
+.b{
+    flex-shrink: 0; /* Mencegah teks mengecil jika kontainer fleksibel */
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    
+    /* margin-left: -800px; */
+} 
+.kanankiri{
+    /* background-color: aqua; */
+    margin-top: -10px;
+    margin-left: 1090px ;
+}
+#dua{
+    font-size: 20px;
+}
+.line{
+    margin-top: -10px;
+    margin-left: 400px ;
+    height: 1px;            /* Tinggi garis */
+    width: 650px;            /* Lebar garis */
+    background-color: #000;
+
+}
+#tiga{
+    font-size: 22px;
+    margin-top: -20px;
+}
+.tabel{
+    display: flex;
+    flex-direction: row;
+}
+.b1{
+    width: 300px;
+    height: 370px;
+    /* background-color: bisque; */
+    border-radius: 35px;
+    text-align: center;
+}
+.b1 a{
+    text-decoration: none;
+    color: #000;
+}
+.b1 h4{
+    font-size: 17px;
+}
+
+
+.button2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    border-radius: 1px;
+    margin-left: 500px;
+    margin-top: 130px;
+    text-decoration: none;
+    color: #000000;
+    border-color: #000;
+    border: thin solid black
+}
+.gambar{
+    margin-top: 170px;
+}
+.line1{
+    margin-top: -25px;
+    margin-left: 130px ;
+    height: 1px;            /* Tinggi garis */
+    width: 900px;            /* Lebar garis */
+    background-color: #000;
+
+}
+.z{
+    display: flex;
+    flex-shrink: 0;
+}
+footer{
+    /* background-color: rgb(255, 0, 0); */
+    background-color: rgb(237, 241, 241);
+    margin-top: 1272px;
+    display: flex;
+    flex-direction: row;
+    height: 370px;
+    align-items: center;
+    justify-content: center;
+}
+.line2{
+    margin-top: 85px;
+    width: 1800px;
+    height: 1px;
+    background-color: #000;
+}
+footer ul a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-top: 300px;
+}
+.kanan{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 70px;
+}
+.t{
+    margin-top: 50px;
+}
+.t a:hover{
+    border-bottom: 2px solid black;
+}
+.h{
+    margin-top: 50px;
+}
+.k{
+    
+    font-size: 23px;
+}
+.v{
+    margin-top: 30px;
+    margin-left: -50px;
+
+}
+.l{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    
+}
+/* .v{
+    display: flex;
+    flex-direction: row;
+}
+.boxa{
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 28px;
+}
+.boxwa{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 48px;
+    width: 51px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 55px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+} */
+.melayang{
+    margin-left: 900px;
+    margin-top: 35px;
+    display: block;
+    position: fixed;
+}
+.item{
+    display: flex;
+    height: 60px;
+    width: 350px;
+    background-color: #000;
+    justify-content: center;
+    border-radius: 9px;
+    align-items: center;
+}
+.q a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.boxwa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-left: 390px;
+    margin-top: -80px;
+}
